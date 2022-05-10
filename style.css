@@ -47,6 +47,19 @@ h2 {
   display: block;
   margin: auto;
 }
+.about-section {
+  text-align: center;
+  margin-top: 75px;
+}
+.about-section h1 {
+  font-size: 75px;
+}
+.about-photo {
+  margin-top: 75px;
+  display: block;
+  max-height: 500px;
+  border-radius: 5px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 70px;
