@@ -50,6 +50,7 @@ h2 {
 .about-section {
   text-align: center;
   margin-top: 75px;
+  color: var(--fourth-color);
 }
 .about-section h1 {
   font-size: 75px;
@@ -60,6 +61,7 @@ h2 {
   max-height: 500px;
   border-radius: 5px;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 70px;
