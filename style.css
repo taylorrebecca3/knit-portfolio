@@ -17,6 +17,28 @@ h1 {
 h2 {
   font-style: italic;
 }
+nav {
+  padding: 15px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 32px;
+  margin-left: 15px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav a.active {
+  color: var(--third-color);
+}
 .heading {
   text-align: center;
   padding: 150px 25px;
@@ -37,6 +59,11 @@ h2 {
 }
 .description {
   line-height: 30px;
+}
+.logo {
+  font-family: var(--heading-font);
+  color: var(--fourth-color);
+  font-size: 25px;
 }
 #feat-proj {
   padding-bottom: 40px;
