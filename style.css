@@ -34,7 +34,7 @@ nav ul {
   padding: 0;
   margin: 0;
 }
-nav a {
+nav li a {
   text-decoration: none;
   color: var(--secondary-color);
   transition: all 100ms ease-in-out;
@@ -43,9 +43,32 @@ nav a:hover,
 nav a.active {
   color: var(--third-color);
 }
+nav .logo {
+  font-family: var(--heading-font);
+  color: var(--fourth-color);
+  font-size: 25px;
+  text-decoration: none;
+}
+footer .contact-box {
+  padding: 30px 120px;
+  border: thick double var(--secondary-color);
+}
+
+footer .social-links a {
+  color: var(--third-color);
+  margin: 0 50px;
+  font-size: 25px;
+  padding: 8px 14px;
+  transition: all 100ms ease-in-out;
+  border-radius: 50%;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--third-color);
+}
 .heading {
   text-align: center;
-  padding: 150px 25px;
+  padding: 150px 25px 100px 25px;
   color: var(--fourth-color);
 }
 .btn-contact {
@@ -64,20 +87,17 @@ nav a.active {
 .description {
   line-height: 30px;
 }
-.logo {
-  font-family: var(--heading-font);
-  color: var(--fourth-color);
-  font-size: 25px;
-}
+
 #feat-proj {
   padding-bottom: 40px;
 }
-#bookmark-image {
+.index-image {
   max-height: 300px;
   max-width: 500px;
   display: block;
   margin: auto;
 }
+
 .about-section {
   text-align: center;
   margin-top: 75px;
@@ -101,24 +121,6 @@ nav a.active {
 .email-link:hover {
   color: var(--secondary-color);
 }
-footer .contact-box {
-  padding: 30px 120px;
-  border: solid 1px var(--secondary-color);
-}
-
-footer .social-links a {
-  color: var(--third-color);
-  margin: 0 50px;
-  font-size: 25px;
-  padding: 8px 14px;
-  transition: all 100ms ease-in-out;
-  border-radius: 50%;
-}
-footer .social-links a:hover {
-  color: white;
-  background-color: var(--third-color);
-}
-
 @media (max-width: 900px) {
   h1 {
     font-size: 70px;
